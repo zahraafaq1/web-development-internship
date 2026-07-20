@@ -1,0 +1,105 @@
+/* Body */
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#f5f5f5;
+
+    margin:0;
+
+}
+
+/* Header */
+
+header{
+
+    background:#2c3e50;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+/* Navigation */
+
+.nav-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    background:#34495e;
+
+    padding:15px;
+
+}
+
+/* Navigation Links */
+
+.nav-container a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.nav-container a:hover{
+
+    color:yellow;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:white;
+
+    margin:20px;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px lightgray;
+
+}
+
+/* Skills Container */
+
+.skills-container{
+
+    display:flex;
+
+    gap:20px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+/* Skill Box */
+
+.skill-box{
+
+    background:#3498db;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
